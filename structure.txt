@@ -1,0 +1,26 @@
+Features
+- Add and manage group members
+- Record shared expenses
+- Split expenses equally among selected members
+- Track who paid for each expense
+- Calculate how much each member owes
+- View expense history
+- Show settlement suggestions to help members balance their debts
+- Save data locally between runs
+
+Project structure
+Create a folder named ExpenseSharingSystem:
+ExpenseSharingSystem/
+├── main.py
+├── config.py
+├── storage.py
+├── member_manager.py
+├── expense_manager.py
+├── settlement_manager.py
+├── utils.py
+├── requirements.txt
+├── .gitignore
+├── README.md
+└── data/
+    ├── members.json
+    └── expenses.json
